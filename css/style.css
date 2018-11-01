@@ -1,0 +1,164 @@
+
+body {
+	background: #000;
+	background-size:cover;
+	color:#fff;
+	font-size: 16px;
+}
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+    
+}
+
+.widget {
+	width: 40%;
+	margin: 2em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 4rem;
+	/*margin:32px; */
+    /*margin-top: 10rem;*/
+
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size:1.5em;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom: 5px;*/
+	background: rgba(88, 86, 86, 0.2);
+	padding: 20px;
+	width: 100%;
+}
+
+.reloj {
+	font-family: 'Quicksand', sans-serif;
+	width: 100%;
+	padding: 20px;
+	font-size: 4em;
+	text-align: center;
+	background: rgba(88, 86, 86, 0.2);
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+
+
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 2rem;
+	display: block;
+}
+
+
+
+/*----- MEDIAS QUERY -------*/
+
+
+
+
+@media (max-width: 641px){
+    
+    .caja-segundos .segundos{
+        
+        font-size: unset;
+    }
+    
+     
+    
+}
+
+
+
+
+@media (max-width: 682px){
+    
+    .fecha {
+        
+        font-size: small; 
+    }
+    
+    .reloj {
+        
+        font-size: x-large;
+    }
+    
+    
+    .caja-segundos .ampm{
+        
+        font-size: medium;
+    }
+    
+    .caja-segundos .segudos{
+        
+        font-size: x-large;
+    }
+ 
+}
+
+
+@media (max-width: 710px){
+    
+    
+    .caja-segundos .ampm{
+        
+        font-size: large;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
